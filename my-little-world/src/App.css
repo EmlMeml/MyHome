@@ -17,6 +17,42 @@
   }
 }
 
+#top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    text-align: center;
+    padding: 32px 20px 24px;
+    gap: 24px;
+  }
+}
+
+#top-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 32px;
+
+  @media (max-width: 1024px) {
+    align-items: center;
+    text-align: center;
+    padding: 32px 20px 24px;
+    gap: 12px;
+  }
+}
+
+#top-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero {
   position: relative;
 
