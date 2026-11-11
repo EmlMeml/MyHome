@@ -1,7 +1,6 @@
 {
   "name": "my-little-world",
   "homepage": "https://emlmeml.github.io/MyHome/",
-  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
